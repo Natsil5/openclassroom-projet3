@@ -29,7 +29,7 @@
     &:hover .box__check {
       width: 40px;
       border-radius: 0px 10px 10px 0px;
-      transition: margin-right 1s;
+      transition-duration: 0.5s;
       & .fa-circle-check {
         animation-name: rotate;
         animation-duration: 0.5s;
@@ -37,6 +37,7 @@
 
     }
     &:hover .box__contents__left {
+      transition-duration: 0.5s;
       width: calc(100% - 40px);
     }
     

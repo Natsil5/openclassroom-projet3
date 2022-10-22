@@ -695,13 +695,14 @@ body {
 .box__contents:hover .box__check {
   width: 40px;
   border-radius: 0px 10px 10px 0px;
-  transition: margin-right 1s;
+  transition-duration: 1s;
 }
 .box__contents:hover .box__check .fa-circle-check {
   animation-name: rotate;
   animation-duration: 0.5s;
 }
 .box__contents:hover .box__contents__left {
+  transition-duration: 1s;
   width: calc(100% - 40px);
 }
 .box__contents__title {
