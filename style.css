@@ -698,7 +698,7 @@ body {
 }
 .box__contents:hover .box__check .fa-circle-check {
   animation-name: rotate;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 .box__contents:hover .box__contents__left {
   width: calc(100% - 40px);
