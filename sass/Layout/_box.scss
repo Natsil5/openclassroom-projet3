@@ -29,11 +29,16 @@
     &:hover .box__check {
       width: 40px;
       border-radius: 0px 10px 10px 0px;
+      & .fa-circle-check {
+        animation-name: rotate;
+        animation-duration: 1s;
+    }
+
     }
     &:hover .box__contents__left {
       width: calc(100% - 40px);
     }
-
+    
     &__title {
       font-weight: 800;
     }
