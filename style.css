@@ -712,6 +712,9 @@ body {
   width: calc(100% - 40px);
 }
 .box__contents__title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   font-weight: 800;
 }
 .box__contents__left {
