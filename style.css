@@ -398,6 +398,9 @@ body {
   height: 62px;
   position: relative;
 }
+.section--fonctionnement .step--color3 {
+  background-color: rgba(146, 86, 220, 0.231372549);
+}
 .section--fonctionnement .step__number {
   padding: 1px 5px;
   color: white;
