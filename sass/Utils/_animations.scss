@@ -58,10 +58,12 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
+  color: transparent;
   font-size: 0px;
-  color: #9356DC;
   font-weight: bold;
   transition-duration: 0.5s;
+  background: linear-gradient(0deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+  -webkit-background-clip: text;
 }
 
 /* Animation du loader */
